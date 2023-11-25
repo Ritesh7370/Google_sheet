@@ -353,7 +353,7 @@ function importFile(fileData) {
 
 let uploadElement = document.getElementById("uploadElement");
 uploadElement.addEventListener("click", function () {
-  let inputVal = document.createElement("input");
+  let inputVal = document.createElement("input")
   inputVal.setAttribute("type", "file");
   inputVal.click();
 
